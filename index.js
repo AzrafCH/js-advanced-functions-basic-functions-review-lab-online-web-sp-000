@@ -7,8 +7,8 @@ function mondayWork(activity="go to the office") {
   return `This Monday, I will ${activity}.`
 }
 
-function wrapAdjective(star='*') {
+function wrapAdjective(flair='*') {
   return function(adjective) {
-    return `${star}${adjective}${star}`
+    return `${flair}${adjective}${flair}`
   }
 }
