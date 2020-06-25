@@ -29,5 +29,10 @@ let Calculator = {
 }
 
 function actionApplyer(start_int, func_array) {
+  let a = start_int
 
+  for (let i = 0; i < func_array.length; i++) {
+   a = func_array[i](a)
+ }
+ return a
 }
