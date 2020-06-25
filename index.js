@@ -29,5 +29,5 @@ let Calculator = {
 }
 
 function actionApplyer() {
-  
+
 }
