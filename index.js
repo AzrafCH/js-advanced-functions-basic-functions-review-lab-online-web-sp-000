@@ -28,6 +28,6 @@ let Calculator = {
   }
 }
 
-function actionApplyer() {
+function actionApplyer(start_int, func_array) {
 
 }
